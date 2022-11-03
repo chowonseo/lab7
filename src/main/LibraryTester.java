@@ -39,4 +39,16 @@ public class LibraryTester {
 		assertTrue(Library.isEvenNumber(2));
 	}	
 	
+	@Test
+	// My Added Test 1
+	public void isEqualReturnTrue() {
+		assertTrue(Library.isEqual(5,5));
+	}	
+	
+	@Test
+	// My Added Test 2
+	public void isMultipleOfReturnTrue() {
+		assertTrue(Library.isMultipleOf(10,5));
+	}	
+	
 }
